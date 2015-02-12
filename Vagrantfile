@@ -9,6 +9,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.hostname = 'aegir.local'
+  config.vm.network 'private_network', ip: '10.55.55.55'
 
   config.vm.provision "shell",
     path: "https://raw.githubusercontent.com/GetValkyrie/ansible-bootstrap/master/install-ansible.sh"
