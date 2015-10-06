@@ -4,3 +4,6 @@
 - name: geerlingguy.mysql
   src: https://github.com/geerlingguy/ansible-role-mysql
   version: master
+- name: getvalkyrie.skynet
+  src: https://github.com/getvalkyrie/ansible-role-skynet
+  version: master

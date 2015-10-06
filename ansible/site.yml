@@ -3,3 +3,4 @@
   roles:
     - geerlingguy.mysql
     - getvalkyrie.aegir
+    - getvalkyrie.skynet
