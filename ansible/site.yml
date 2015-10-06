@@ -6,3 +6,12 @@
     - geerlingguy.mysql
     - getvalkyrie.aegir
     - getvalkyrie.skynet
+  tasks:
+    - apt:
+        name: "{{ item }}"
+        state: installed
+      with_items:
+        - screen
+        - htop
+        - strace
+        - tree
