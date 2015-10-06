@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
+  vars:
+    drush_version: master
   roles:
     - geerlingguy.mysql
     - getvalkyrie.aegir
